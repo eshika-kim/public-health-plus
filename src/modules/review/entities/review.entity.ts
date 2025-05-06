@@ -3,7 +3,7 @@ import { Column, Entity, JoinColumn, ManyToOne } from 'typeorm';
 
 import { AbstractEntity } from '../../../common/abstract.entity.ts';
 import { UseDto } from '../../../decorators/use-dto.decorator.ts';
-import { ProgramEntity } from '../../program/entities/program.entity.ts';
+import { ProgramEntity } from '../../health-supplement/entities/functional-ingredients.entity.ts';
 import { UserEntity } from '../../user/entities/user.entity.ts';
 import { ReviewDto } from '../dtos/review.dto.ts';
 

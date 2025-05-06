@@ -1,7 +1,7 @@
 // program.mapper.ts
 
 import { ProgramDto } from '../dtos/program.dto.ts';
-import { ProgramEntity } from '../entities/program.entity.ts';
+import { ProgramEntity } from '../entities/functional-ingredients.entity.ts';
 import { GenreEntity } from '../entities/genre.entity.ts';
 import { WatchProviderEntity } from '../entities/watch-provider.entity.ts';
 
